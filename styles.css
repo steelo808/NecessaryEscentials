@@ -125,6 +125,7 @@ header{
     position:relative;
 }
 
+
 .header-content{
     color:var(--off-white);
     display:flex;
@@ -134,6 +135,7 @@ header{
     width:250px;
     min-height:100vh;
     padding-bottom:9rem;
+
 }
 
 .header-content h1{
@@ -181,15 +183,12 @@ header{
 
 /* TOP SELLERS SECTION / SECTION 2 */
 
-.sct-2 img{
-    padding:3rem 0 3rem 0;
-    margin:0 auto;
-}
 
 .sct-2 img{
     width:500px;
     height:500px;
     margin:0 auto;
+    padding:3rem 0 3rem 0;
 }
 
 
@@ -475,7 +474,7 @@ label.fcf-label {
 /* MEDIA QUERIES */
 
 /* SURFACE DUO 540X720 */
-@media screen and (max-width:544px){
+@media screen and (max-width:780px){
 .sct-2 .container{
     padding:0;
 }
@@ -491,6 +490,29 @@ label.fcf-label {
 /* END */
 
 
+/* WEBSITE BREAKAGE QUERY  */
+
+@media screen and (max-width:580px){
+.sct-2 img{
+    width:250px;
+    height:250px;
+}
+
+
+.ftr .nav-link {
+    padding:0.5rem 0.3rem;
+}
+
+
+}
+
+
 /* IPHONE X 320PX */
 
-@media screen and(max-width:320px)
+@media screen and (max-width:380px){
+
+    .header-content h1{
+        font-size:3.8rem;
+
+    }
+}
