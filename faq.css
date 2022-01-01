@@ -1,0 +1,27 @@
+:root{
+    --bold:700;
+    --regular:400;
+    --main-font:'Bodoni Moda', serif;
+    --secondary-font:'Roboto', sans-serif;
+    --off-white:#f8f8f8;
+    --light-black:#333333;
+    --accent-color:rgb(212,175,55);
+    --accent-color-hover:rgba(212,175,55,0.5);
+}
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.main-sct h1{
+    text-align:center;
+    text-decoration:underline;
+    margin-bottom:5rem;
+}
+

@@ -89,7 +89,7 @@
                     </div>
                     <div class="col col-lg-6 col-md-12">
                         <img src="images/sct-2ph.jpg" alt="">
-                        <p>placeholder</p>
+                        <p><em>placeholder</em></p>
                         <p>$0.00</p>
                         <button type="button" class="button">Buy now</button>
                     </div>
@@ -181,48 +181,23 @@
     <!-- CONTACT US SECTION -->
 
     <section class ="sct sct-4">
-        <div class="fcf-body">
+        <h2>Contact Us!</h2>
+        <div class="container">
+        <form action="https://formsubmit.co/d4380bafc050be35116e1db81a45ba19" method="POST">
 
-            <div id="fcf-form">
-            <h3 class="fcf-h3">Contact us</h3>
-        
-            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-                
-                <div class="fcf-form-group">
-                    <label for="Name" class="fcf-label">Your name</label>
-                    <div class="fcf-input-group">
-                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Email" class="fcf-label">Your email address</label>
-                    <div class="fcf-input-group">
-                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <label for="Message" class="fcf-label">Your message</label>
-                    <div class="fcf-input-group">
-                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                    </div>
-                </div>
-        
-                <div class="fcf-form-group">
-                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
-                </div>
-        
-                <div class="fcf-credit" id="fcf-credit">
-                Simple HTML email form provided by: <a href="https://www.freecontactform.com" target="_blank">FreeContactForm.com</a>
-                </div>
-        
-            </form>
-            </div>
-        
+            
+                <label for ="name">Full Name:</label>
+                <input type="text" name="name" id= "name" placeholder="Enter your name" required>
+    
+                <label for ="Email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            
+                <label for ="reviews">Message:</label>
+                <p><textarea name="reviews" id ="reviews" rows="8" cols="50" placeholder="Your Message"></textarea></p>
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+                <button type="submit" class="button">Send</button>
+        </form>
         </div>
-        
-
     </section>
 <!-- WEBSITE CREATED BY STERLING MYLES WEB DEVELOPMENT -->
     <footer class="ftr">
