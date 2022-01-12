@@ -24,6 +24,14 @@
 
 /* END */
 
+/* UNIVERSAL STYLES */
+
+.hide{
+    display:none;
+    transition:1s ease;
+}
+
+
 
 body{
     font-size:100%;
@@ -79,6 +87,18 @@ a{
     justify-content:space-between;
 }
 
+
+.navbar-dark .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:#fff;
+}
+
+.navbar-toggler-icon{
+    color:#fff;
+}
 nav{
     padding-top:3rem;
     display:flex;
@@ -169,7 +189,6 @@ header{
 
 .sct{
     text-align:center;
-    background-color:var(--off-white);
 }
 
 .sct h1{
@@ -273,6 +292,7 @@ form input{
 
 textarea{
     padding:2px 5px;
+    max-width:100%;
 }
 
 
