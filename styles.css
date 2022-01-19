@@ -393,12 +393,18 @@ textarea{
 
 }
 
+/* IPHONE 11 */
+@media screen and (max-width:414px){
+    .header-content h1{
+    font-size:3.5rem;
+    }
+}
 
-/* IPHONE X 320PX */
+/* IPHONE X 320PX */ 
 
 @media screen and (max-width:400px){
     .header-content h1{
-        font-size:3.5rem;
+        font-size:3rem;
 
     }
 }
