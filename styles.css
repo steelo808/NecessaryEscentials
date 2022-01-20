@@ -306,6 +306,9 @@ textarea{
     height:auto;
     color:var(--light-black);
 }
+ul.ftr-links{
+    padding:0;
+}
 
 .ftr .content{
     text-align:center;
@@ -333,16 +336,18 @@ textarea{
 .ftr .nav-link{
     font-size:0.8rem;
     text-transform: uppercase;
+    margin:0 1rem;
 }
 
 
-.social-icons i{
+.social-icons a i{
     font-size:1.8rem;
     margin:0 1rem 0 1rem;
     cursor:pointer;
+    color:#333333;
 }
 
-.social-icons i:hover{
+.social-icons a i:hover{
     color:var(--accent-color);
 }
 
@@ -396,7 +401,7 @@ textarea{
 /* IPHONE 11 */
 @media screen and (max-width:414px){
     .header-content h1{
-    font-size:3.5rem;
+    font-size:3.8rem;
     }
 }
 

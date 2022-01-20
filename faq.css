@@ -21,6 +21,10 @@ hr{
     box-sizing:border-box;
 }
 
+p{
+    line-height:2rem;
+    letter-spacing:1px;
+}
 
 .navbar{
     margin-bottom:5rem;
@@ -34,6 +38,7 @@ hr{
 
 .q_a{
 margin-bottom:3rem;
+padding:5px;
 }
 
 
