@@ -159,7 +159,7 @@ header{
     justify-content:center;
     width:250px;
     min-height:100vh;
-    padding-bottom:9rem;
+    padding-bottom:20rem;
 
 }
 
@@ -411,5 +411,25 @@ ul.ftr-links{
     .header-content h1{
         font-size:3rem;
 
+    }
+}
+
+/* MOTO G4 360X640PX */
+
+@media screen and (max-width:360px){
+    .sct-3 h3{
+        font-size:1.5rem;
+
+    }
+}
+
+
+/* GALAXY FOLD 280X653PX */
+
+@media screen and (max-width:280px){
+
+    .sct-3 i{
+        font-size:2rem;
+        
     }
 }
