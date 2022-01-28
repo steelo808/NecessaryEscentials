@@ -7,6 +7,7 @@
     --light-black:#333333;
     --accent-color:rgb(212,175,55);
     --accent-color-hover:rgba(212,175,55,0.5);
+    --cold-grey:#252525;
 }
 
 
@@ -142,9 +143,10 @@ nav ul li a{
 }
 
 header{
-    background-image:url(images/pexels-irina-iriser-977304.jpg);
+    background:rgba(0, 0, 0, 0.3)url(images/pexels-karolina-grabowska-4466492.jpg);
     background-size:cover;
     background-position: center;
+    background-blend-mode: darken;
     height:100vh;
     width:100vw;
     position:relative;
@@ -164,7 +166,6 @@ header{
 }
 
 .header-content h1{
-    color:var(--off-white);
     font-family:var(--main-font);
     font-weight:var(--bold);
     font-size:5rem;
